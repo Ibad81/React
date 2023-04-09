@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 import Expenseitem from "./components/Expenseitem";
  
@@ -32,7 +32,7 @@ function App() {
     },
   ];
   return (
-    <div>
+    <div className="box">
       <h2>Let's Started</h2>
       <Expenseitem 
       
